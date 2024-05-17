@@ -5,8 +5,8 @@ Course project for 'Simulation of Stochastic and Random Process'
 
 ### MCMC is a sampling method used to obtain probability distribution functions (pdfs) based on given information. The core idea is to simulate draws from pdfs to allow the Markov Chain to grow, ensuring that the next sampling point depends on the current sampling point.
 
-## Key Concepts: Stationary Distribution: If the sampling probability remains the same after many iterations, the distribution reaches a stationary state. Detailed Balance Condition: Ensures that the Markov Chain has a stationary distribution that converges to the target distribution 𝑝(𝑥).
+### Key Concepts: Stationary Distribution: If the sampling probability remains the same after many iterations, the distribution reaches a stationary state. Detailed Balance Condition: Ensures that the Markov Chain has a stationary distribution that converges to the target distribution 𝑝(𝑥).
 
-## Gibbs Sampling: Samples from the conditional distribution 𝑝(𝜃1∣𝜃2,𝜃3,…)p(θ1∣θ2,θ3,…) and accepts each state with probability one. This method simplifies the computation by focusing on conditional distributions.
+### Gibbs Sampling: Samples from the conditional distribution 𝑝(𝜃1∣𝜃2,𝜃3,…)p(θ1∣θ2,θ3,…) and accepts each state with probability one. This method simplifies the computation by focusing on conditional distributions.
 
-## This project successfully classifies text samples as spam or ham using MCMC methods and optimizes performance through vectorization. The implementation demonstrates significant improvements in accuracy and efficiency, showcasing the power of advanced sampling methods in text classification tasks.
+### This project successfully classifies text samples as spam or ham using MCMC methods and optimizes performance through vectorization. The implementation demonstrates significant improvements in accuracy and efficiency, showcasing the power of advanced sampling methods in text classification tasks.
